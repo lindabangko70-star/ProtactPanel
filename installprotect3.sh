@@ -56,7 +56,7 @@ class LocationController extends Controller
         // 🔒 Cegah akses selain admin ID 1
         $user = Auth::user();
         if (!$user || $user->id !== 1) {
-            abort(403, '𝖺𝗄𝗌𝖾𝗌 𝖽𝗂𝗍𝗈𝗅𝖺𝗄 𝗉𝗋𝗈𝗍𝖾𝖼𝗍 𝖻𝗒 @hamzanjal80!');
+            abort(403, '𝖺𝗄𝗌𝖾𝗌 𝖽𝗂𝗍𝗈𝗅𝖺𝗄 𝗉𝗋𝗈𝗍𝖾𝖼𝗍 𝖻𝗒 @binnhostprotect!');
         }
 
         return $this->view->make('admin.locations.index', [
@@ -74,7 +74,7 @@ class LocationController extends Controller
         // 🔒 Cegah akses selain admin ID 1
         $user = Auth::user();
         if (!$user || $user->id !== 1) {
-            abort(403, '𝖺𝗄𝗌𝖾𝗌 𝖽𝗂𝗍𝗈𝗅𝖺𝗄 𝗉𝗋𝗈𝗍𝖾𝖼𝗍 𝖻𝗒 @hamzanjal80!');
+            abort(403, '𝖺𝗄𝗌𝖾𝗌 𝖽𝗂𝗍𝗈𝗅𝖺𝗄 𝗉𝗋𝗈𝗍𝖾𝖼𝗍 𝖻𝗒 @binnhostprotect!');
         }
 
         return $this->view->make('admin.locations.view', [
@@ -92,7 +92,7 @@ class LocationController extends Controller
         // 🔒 Cegah akses selain admin ID 1
         $user = Auth::user();
         if (!$user || $user->id !== 1) {
-            abort(403, '𝖺𝗄𝗌𝖾𝗌 𝖽𝗂𝗍𝗈𝗅𝖺𝗄 𝗉𝗋𝗈𝗍𝖾𝖼𝗍 𝖻𝗒 @hamzanjal80!');
+            abort(403, '𝖺𝗄𝗌𝖾𝗌 𝖽𝗂𝗍𝗈𝗅𝖺𝗄 𝗉𝗋𝗈𝗍𝖾𝖼𝗍 𝖻𝗒 @binnhostprotect!');
         }
 
         $location = $this->creationService->handle($request->normalize());
@@ -111,7 +111,7 @@ class LocationController extends Controller
         // 🔒 Cegah akses selain admin ID 1
         $user = Auth::user();
         if (!$user || $user->id !== 1) {
-            abort(403, '𝖺𝗄𝗌𝖾𝗌 𝖽𝗂𝗍𝗈𝗅𝖺𝗄 𝗉𝗋𝗈𝗍𝖾𝖼𝗍 𝖻𝗒 @hamzanjal80!');
+            abort(403, '𝖺𝗄𝗌𝖾𝗌 𝖽𝗂𝗍𝗈𝗅𝖺𝗄 𝗉𝗋𝗈𝗍𝖾𝖼𝗍 𝖻𝗒 @binnhostprotect!');
         }
 
         if ($request->input('action') === 'delete') {
@@ -135,7 +135,7 @@ class LocationController extends Controller
         // 🔒 Cegah akses selain admin ID 1
         $user = Auth::user();
         if (!$user || $user->id !== 1) {
-            abort(403, '𝖺𝗄𝗌𝖾𝗌 𝖽𝗂𝗍𝗈𝗅𝖺𝗄 𝗉𝗋𝗈𝗍𝖾𝖼𝗍 𝖻𝗒 @hamzanjal80!');
+            abort(403, '𝖺𝗄𝗌𝖾𝗌 𝖽𝗂𝗍𝗈𝗅𝖺𝗄 𝗉𝗋𝗈𝗍𝖾𝖼𝗍 𝖻𝗒 @binnhostprotect!');
         }
 
         try {
